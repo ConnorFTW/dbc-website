@@ -11,7 +11,9 @@ export default function NotFound() {
       </Head>
       <div className="row py-40">
         <div className="col-md-8 col-md-offset-2 dark:bg-gray">
-          <h1 className="text-center text-4xl mb-3">404</h1>
+          <h1 className="text-center text-4xl mb-3">
+            4<div className="animate-spin inline-block h-11">0</div>4
+          </h1>
           <p className="text-center border-t-2 border-gray-500 mb-4 mx-auto">
             We couldn't find the page you were looking for.
             <br />
