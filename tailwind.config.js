@@ -3,7 +3,14 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "media", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        header: "auto auto auto",
+      },
+      gridTemplateColumns: {
+        header: "2fr 3fr",
+      },
+    },
   },
   variants: {
     extend: {},
